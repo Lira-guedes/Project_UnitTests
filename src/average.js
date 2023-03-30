@@ -12,9 +12,12 @@
 */
 
 const avarage = (array) => {
+  if(!array.length) {
+    return undefined;
+  }
   let sum = 0;
   for (let i = 0; i < array.length; i += 1) {
-    if (typeof array[i] !== 'number' || !array) {
+    if (typeof array[i] !== 'number') {
       return undefined;
     }
     sum += array[i];
@@ -23,4 +26,4 @@ const avarage = (array) => {
   return media;
 };
 
-module.exports = average;
+module.exports = avarage;
