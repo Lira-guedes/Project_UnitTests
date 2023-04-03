@@ -1,4 +1,4 @@
-/*
+ /*
 A função getCharacter recebe uma string que representa o nome de um personagem e retorna um objeto contendo seu nome, sua classe e suas frases.
 
 O retorno será de acordo com a seguinte relação:
