@@ -12,7 +12,7 @@
 */
 
 const avarage = (array) => {
-  if(!array.length) {
+  if (!array.length) {
     return undefined;
   }
   let sum = 0;
